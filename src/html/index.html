@@ -7,33 +7,64 @@
   <title>APS 2023 Frontend Webpack</title>
   <meta name="keywords" content=" ">
   <meta name="description" content=" ">
-  <script>
-    var prime = "";
-    var number = prompt("Enter number up to 100 to view prime numbers", "");
-    if (number > 100) {
-      alert("Can't enter number above 100");
-    }
-    else {
-      for (i = 2; i <= number; i++) {
-        raise = 0;
-        for (j = 2; j <= i / 2; j++) {
-          if (i % j == 0) {
-            raise = 1;
-            break;
-          }
-        }
-         prime = prime + " \n " + i;
-      }
-      alert("Prime numbers up to " + i + " are:\n " + prime);
-    }
-
-  </script>
 </head>
 
 <body>
-  <h1>Webpack</h1>
-  <img src="../img/file.jpg" alt="Image">
-  <p></p>
+  <header class="l-header">
+    <div class="l-wrap-inner">
+      <div class="l-header__inner">
+        <div class="l-header__logo">
+          <h1><a href="">Landings</a></h1>
+        </div>
+        <nav class="l-header__nav">
+          <ul>
+            <li><a href="">WORK</a></li>
+            <li><a href="">FEATURES</a></li>
+            <li><a href="">BLOG</a></li>
+            <li><a href="">CONTACT US</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <section class="banner">
+    <div class="l-wrap-inner">
+      <div class="banner-inner">
+        <h2>Lorem ipsum</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <div class="c-btn c-btn--view"> </div>
+      </div>
+    </div>
+    
+  </section>
+  <main>
+    <section class="p-bloc">
+      <div class="l-wrap-inner l-wrap-inner--full">
+        <div class="card">
+          <div class="txt-box"></div>
+          <div class="img-box"></div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="p-bloc p-bloc--card-bloc">
+      <div class="l-wrap-inner">
+
+      </div>
+    </section>
+
+    <section class="p-bloc p-bloc--video">
+
+    </section>
+
+    <section class="p-bloc p-bloc--card-bloc p-bloc--feature">
+
+    </section>
+  </main>
+  <footer>
+    <address></address>
+  </footer>
 </body>
 
 </html>
