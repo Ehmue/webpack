@@ -1,0 +1,30 @@
+.c-btn{
+
+    width: 307px;
+    height: 72px;
+    display: flex;
+    margin: 0 auto;
+
+
+    a{
+        display: inline-flex;
+        width: 100%;
+        font-family: 'Lato', sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        text-align: center;
+        color: #fff;
+        background-color: #325dff;
+        align-items: center;
+        border: 1px solid #325dff;
+        border-radius: 36px;
+        justify-content: center;
+    }
+    a:hover{
+        background-color: #325effa4;
+    }
+
+    &--card{
+        
+    }
+}

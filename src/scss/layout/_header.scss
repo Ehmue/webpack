@@ -1,11 +1,15 @@
 .l-header {
 
+    position: fixed;
+    width: 100%;
+    margin-top: 60px;
+
+
     &__inner {
         display: flex;
         justify-content: space-between;
         height: 28px;
         align-items: center;
-        margin-top: 60px;
     }
 
     &__logo {
@@ -16,7 +20,7 @@
                 font-family: 'Dancing Script';
                 font-weight: 400;
                 text-decoration: none;
-                display: block;
+                color: #fff;
 
             }
         }
@@ -24,20 +28,23 @@
 
     &__nav {
 
-        display: flex;
-        justify-content: flex-start;
-        list-style: none;
+        ul {
+            display: flex;
+            justify-content: flex-start;
+            list-style: none;
 
-        li {
-            a {
-                font-family: 'Poppins', sans-serif;
-                font-size: 12px;
-                text-decoration: none;
-                font-weight: 400;
-                padding: 0 10px;
-                color: #fff;
+            li {
+                
+                a {
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 12px;
+                    text-decoration: none;
+                    font-weight: 400;
+                    padding: 0 10px;
+                    color: #fff;
+                }
+
             }
-
         }
     }
 }

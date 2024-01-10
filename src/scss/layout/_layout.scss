@@ -1,4 +1,8 @@
 .l-wrap-inner{
     width: 1171px;
     margin: 0 auto;
+
+    &--full{
+        width: 1280px;
+    }
 }
